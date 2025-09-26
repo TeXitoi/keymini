@@ -6,7 +6,7 @@ type Action = keyberon::action::Action<()>;
 macro_rules! hold_tap {
     ($hold:expr, $tap:expr) => {
         HoldTap(&HoldTapAction {
-            timeout: 200,
+            timeout: 180,
             tap_hold_interval: 0,
             config: HoldTapConfig::Default,
             hold: $hold,
@@ -65,8 +65,8 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::l
         [   Z       X       C       V       B       N       M       ,       .       /   ],
         [   n       n Application Space    (1)     (2)   RShift   RAlt      n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [ Pause CapsLock  LGui   PScreen    n       n    BSpace  Delete  Insert     n   ],
-        [   n     LAlt   {C_ESC} {S_TAB} {STAB}   {CBS}   Left    Down     Up     Right ], // TODO: put back ScrollLock
+        [ Pause CapsLock  LGui  PScreen ScrollLock  n    BSpace  Delete  Insert     n   ],
+        [   n     LAlt   {C_ESC} {S_TAB} {STAB}   {CBS}   Left    Down     Up     Right ],
         [ Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End  ],
         [   n       n       t       t       n      (3)      t       t       n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
