@@ -1,4 +1,4 @@
-use keyberon::action::{k, m, Action::*, HoldTapAction, HoldTapConfig};
+use keyberon::action::{Action::*, HoldTapAction, HoldTapConfig, k, m};
 use keyberon::key_code::KeyCode::*;
 
 type Action = keyberon::action::Action<()>;
@@ -60,10 +60,10 @@ pub const NUM_LAYERS: usize = 4;
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::layout::layout! {
     { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [   Q       W     {G_E}     R       T       Y       U     {G_I}     O       P   ],
-        [   A     {M_S}   {C_D}   {S_F}     G       H     {S_J}   {C_K}   {M_L}     ;   ],
+        [   Q       W       E       R       T       Y       U       I       O       P   ],
+        [   A       S       D       F       G       H       J       K       L       ;   ],
         [   Z       X       C       V       B       N       M       ,       .       /   ],
-        [   n       n Application Space    (1)     (2)   RShift   RAlt      n       n   ],
+        [   n       n     LCtrl   Space    (1)     (2)   RShift   RAlt      n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [ Pause CapsLock  LGui  PScreen ScrollLock  n    BSpace  Delete  Insert     n   ],
         [   n     LAlt   {C_ESC} {S_TAB} {STAB}   {CBS}   Left    Down     Up     Right ],
