@@ -6,7 +6,7 @@ type Action = keyberon::action::Action<()>;
 macro_rules! hold_tap {
     ($hold:expr, $tap:expr) => {
         HoldTap(&HoldTapAction {
-            timeout: 180,
+            timeout: 200,
             tap_hold_interval: 0,
             config: HoldTapConfig::Default,
             hold: $hold,
