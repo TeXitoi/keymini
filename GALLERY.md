@@ -33,3 +33,7 @@
 ## v0.2, Noctural switches, LDSA keycaps, purple with alumine PLA plate
 
 ![purple](images/keymini-purple.jpg)
+
+## v0.2, Noctural switches, KLP Lamé normal and plate on SLA transparent
+
+![transparent](images/keymini-transparent.jpg)
