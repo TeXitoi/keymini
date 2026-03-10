@@ -14,7 +14,7 @@
 
 ![masked-components](images/keymini-masked-components.jpg)
 
-## v0.2, Noctural switches, KLP Lamé normal on SLS nylon, colorless matte glazed oak plate
+## v0.2, Noctural switches, KLP Lamé normal on SLS nylon, colorless matte glazed oak plate (CNC)
 
 ![angled](images/keymini-wood-angled.jpg)
 
@@ -25,6 +25,10 @@
 ![on laptop keyboard](images/keymini-wood-on-laptop-keyboard.jpg)
 
 ![on laptop](images/keymini-wood-on-laptop.jpg)
+
+With LDSA keycaps:
+
+![With LDSA](images/keymini-wood-ldsa.jpg)
 
 ## v0.2, Noctural switches, MBK keycaps, built by Louis
 
@@ -37,3 +41,9 @@
 ## v0.2, Noctural switches, KLP Lamé normal and plate on SLA transparent
 
 ![transparent](images/keymini-transparent.jpg)
+
+## v0.2, Noctural switches, LDSA keycaps and mate clear aluminium plate (CNC at JLCCNC)
+
+![Aluminium LDSA black](images/keymini-alu-ldsa-black.jpg)
+
+![Aluminium LDSA white](images/keymini-alu-ldsa-white.jpg)
