@@ -49,6 +49,7 @@ For instructions on the PCB manufacturing, see the [gerbers
 directory](pcb/gerbers/).
 
 For information on building and flashing the firmware, see the
-[firmware directory](firmware/).
+[official rust firmware](firmware/) or the [unofficial ZMK
+firmware](https://github.com/TeXitoi/keymini-zmk-config).
 
 For information on the default layout, see the [layout page](LAYOUT.md).
